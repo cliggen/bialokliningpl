@@ -1,0 +1,81 @@
+@mixin heading-2 {
+  font-family: Rubik, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #2D4664;
+}
+@mixin heading-4 {
+  font-family: Rubik, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4280BB;
+}
+@mixin social {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4280BB;
+}
+
+.modal-menu {
+  @media (min-width: 768px) {
+  display: none;
+  }
+  margin: 0 auto;
+  padding-top: 50px;
+
+  .anchor-link {
+    @include heading-2;
+  }
+
+  .modal-menu-wrapper {
+    border: 1px solid transparent;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    li {
+      margin: 0 auto;
+      padding-top: 20px;
+      @include heading-2;
+      span {
+        @include heading-4;
+      }
+      p {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #2D4664;
+      }
+    }
+  }
+  .socials {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    .socials-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+
+      img {
+        width: 32px;
+        height: 32px;
+        margin-right: 20px;
+      }
+      .social-desc {
+        @include social;
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+.udoskonalenieBlock {
+  padding: 0 20px;
+  padding-bottom: 80px;
+
+  .udoskonalenieBlockTitleImage {
+    width: 36vw;
+    margin: 0 auto;
+    padding-top: 90px;
+    @media (max-width: 768px) {
+      width: 330px;
+    }
+  }
+
+  .udoskonaleniePricePerMeterContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin-top: 95px;
+    margin-left: 150px;
+    gap: 100px;
+    @media (max-width: 1280px) {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  .udoskonaleniePricePerMeterItem {
+    max-width: 570px;
+    margin: 0 auto;
+  }
+
+  .udoskonaleniePricePerMeterItemTitle {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #2d4664;
+    max-width: 570px;
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  .udoskonaleniePricePerMeterItem > p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #f5d287;
+    margin-bottom: 38px;
+  }
+
+  .udoskonaleniePricePerMeterItemContent {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #2d4664;
+    margin-top: 20px;
+  }
+
+  .udoskonalenieUslugaZawiera {
+    background: #4280bb;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 115px;
+    max-width: 1140px;
+    min-width: 330px;
+  }
+
+  .udoskonalenieUslugaZawiera p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    padding-bottom: 45px;
+
+  }
+
+  .udoskonalenieUslugaZawiera ul li {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    list-style: none;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+
+  .udoskonalenieUslugiDodatkowe {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .udoskonalenieUslugiDodatkowe img {
+    min-width: 330px;
+    max-width: 450px;
+  }
+
+  .udoskonalenieUslugiDodatkowe p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #2d4664;
+    margin-bottom: 30px;
+    margin-left: -35px;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  .udoskonalenieUslugiDodatkowePrice {
+    max-width: 600px;
+  }
+
+  .udoskonalenieUslugiDodatkowePrice p {
+    margin: 0 auto;
+  }
+
+  .udoskonalenieUslugiDodatkowe li {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    color: #2d4664;
+
+    @media (max-width: 768px) {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 24px;
+      color: #2D4664;
+      text-align: left;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+
+  .udoskonalenieUslugiDodatkoweImage {
+    padding: 20px;
+  }
+
+  .udoskonalenieSlogan {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+    color: #4280bb;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 105px;
+    @media (max-width: 768px) {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center;
+
+      /* Blue 1 */
+      color: #4280BB;
+
+    }
+  }
+}
+

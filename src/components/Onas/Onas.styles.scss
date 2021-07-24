@@ -1,0 +1,56 @@
+.onas-wrapper {
+  background: #4280BB;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  .oNasPicture {
+    width: 50%;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .oNasInformation {
+    margin-left: 53px;
+    justify-content: left;
+    margin: 0 auto;
+  }
+
+  .oNasTitleShadow {
+    font-family: Rubik_bold;
+    font-size: 72px;
+    color: #4280bb;
+    -webkit-text-stroke-color: #699bca;
+    -webkit-text-stroke-width: 2px;
+    margin-bottom: -45px;
+    @media (max-width: 820px) {
+      text-align: center;
+    }
+  }
+  .oNasTitleMain {
+    font-family: Rubik;
+    font-size: 48px;
+    color: #f5d287;
+    margin-bottom: 32px;
+    @media (max-width: 820px) {
+      text-align: center;
+    }
+  }
+
+  .oNasText {
+    font-family: Rubik;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 28px;
+    list-style-type: disc;
+    @media (max-width: 380px) {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      color: #FFFFFF;
+    }
+  }
+}
